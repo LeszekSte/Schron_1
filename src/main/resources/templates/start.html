@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" >
+    <title>Schronisko</title>
+</head>
+<body>
+
+
+<a href="/lista">Lista Zwierząt</a>
+<form action = "/powitanie" method="post">
+    <input type="text" PLACEHOLDER="Imię" name="imie" /><br>
+
+    <select name="gatunek" >
+        <option>Pies</option>
+        <option>Kot</option>
+    </select></br>
+
+    <textarea rows="10" placeholder="Opis zwierzątka" name="opis"></textarea></br>
+    <button type="submit">Dodaj zwierzątko</button>
+</form>
+
+
+</body>
+</html>
